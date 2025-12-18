@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  background: #0b0b0b;
+  overflow: hidden;
+  font-family: "Science Gothic", sans-serif;
+}
+
+.scene {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.message {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 18px;
+  background: rgba(20, 20, 20, 0.9);
+  border-radius: 20px;
+  color: #fff;
+  animation: floatUp 8s linear forwards;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.text {
+  font-size: 25px;
+  max-width: 360px;
+  font-family: "Caveat", cursive;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translate(-50%, 100vh);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -200px);
+    opacity: 0;
+  }
+}/*# sourceMappingURL=messeges.css.map */

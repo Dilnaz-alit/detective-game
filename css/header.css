@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "FontName";
+  src: url("../fonts/Caveat.ttf") format("ttf"), url("../fonts/Great.ttf") format("ttf"), url("../fonts/ScienceGothic.ttf") format("ttf");
+}
+header {
+  background-image: url(../image/детектив.png);
+  width: 100%;
+  max-height: 200px;
+  height: 100%;
+  border-radius: 8px;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav img {
+  width: 250px;
+  position: absolute;
+  bottom: 0;
+  opacity: 0.1;
+}
+nav ul {
+  display: flex;
+  gap: 45px;
+  padding: 120px 200px;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a {
+  font-family: "Caveat", cursive;
+  font-size: 30px;
+  color: rgb(202, 197, 224);
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 29px;
+  color: rgb(239, 90, 90);
+}
+
+.btn-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-search .searchAll {
+  margin-top: 50px;
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #161414;
+  border: 2px solid rgba(104, 17, 17, 0.6196078431);
+  color: #eae9e9;
+  font-size: 25px;
+  font-family: "Caveat", cursive;
+}/*# sourceMappingURL=header.css.map */

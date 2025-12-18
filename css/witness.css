@@ -1,0 +1,89 @@
+body {
+  background-image: url(../image/svidet.png);
+}
+
+.icon {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 50px 550px;
+}
+.icon .wit {
+  position: relative;
+  border: 1px solid rgba(28, 27, 27, 0.3019607843);
+  background-color: #343434;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  color: rgb(225, 225, 225);
+  font-family: "Caveat", cursive;
+}
+.icon .wit img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+.icon .wit:hover {
+  width: 80px;
+  height: 80px;
+}
+.icon .wit:hover img {
+  width: 80px;
+  height: 80px;
+}
+
+.wit-sus {
+  margin-top: 50px;
+  color: rgb(223, 203, 202);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Caveat", cursive;
+  font-size: 25px;
+}
+
+.witness-container {
+  width: 900px;
+  margin: 150px;
+}
+
+.witness-cart {
+  width: 800px;
+  height: 250px;
+  border: 1px solid #461c1c;
+  display: flex;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: #100f0f;
+  margin-bottom: 20px;
+  overflow: hidden !important;
+  font-family: "Science Gothic", sans-serif;
+}
+.witness-cart .wit-image {
+  margin: auto 10px;
+}
+.witness-cart .wit-image img {
+  display: block;
+  border: 1px solid #461c1c;
+  height: 200px;
+  width: 300px;
+  border-radius: 8px;
+}
+.witness-cart .wit-info {
+  width: 500px;
+  color: rgb(212, 200, 185);
+}
+
+.wit-btn {
+  width: 200px;
+  height: 35px;
+  background-color: #523131;
+  border-radius: 8px;
+  border: 2px solid #523131;
+  color: rgb(229, 230, 231);
+  margin-bottom: 50px;
+  font-family: "Science Gothic", sans-serif;
+}/*# sourceMappingURL=witness.css.map */
